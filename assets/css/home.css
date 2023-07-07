@@ -1,0 +1,52 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 800;
+}
+
+body {
+    background-color: rgb(85, 85, 129);
+}
+
+.welcome-page {
+    width: 100%;
+    padding: 7%;
+    background-color: rgba(126, 126, 196, 0.196);
+    color: rgb(43, 239, 37);
+    font-style: italic;
+    text-shadow: 0px 0px 15px rgb(248, 71, 71);
+}
+
+.top-page {
+    background-color: rgb(43, 239, 37);
+}
+
+.logo {
+    font-style: italic;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(15, 236, 155);
+    text-shadow: 0px 0px 15px rgb(15, 236, 155);
+}
+
+button {
+    background-color: rgb(48, 223, 80);
+    width: 25%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: rgb(85, 85, 129);
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 16px rgb(30, 207, 63);
+}
+
+button:hover {
+    background-color: transparent;
+    color: rgb(48, 223, 80);
+    border: 2px solid rgb(48, 223, 80);
+}

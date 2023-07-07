@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(41, 41, 93);
+    color: rgb(136, 217, 151);
+    font-family: 'Lora', serif;
+}
+
+h1 {
+    color: rgb(255, 215, 0);
+}
+
+.login {
+    width: 58%;
+    height: 100%;
+    background-color: rgb(85, 85, 129);
+    padding: 27px;
+    border: 10px solid rgb(48, 223, 80);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: rgb(48, 223, 80);
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: rgb(85, 85, 129);
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0px 0px 16px rgb(30, 207, 63);
+}
+
+button a {
+    text-decoration: none;
+    color: rgb(0, 0, 255);
+}
+
+button:hover {
+    background-color: transparent;
+    color: rgb(48, 223, 80);
+    border: 2px solid rgb(48, 223, 80);
+}
+
+img {
+    cursor: pointer;
+}
